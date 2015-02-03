@@ -21,6 +21,8 @@
 		4BE435671A807B4500910616 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE435661A807B4500910616 /* Icon.png */; };
 		4BE435691A80A5BE00910616 /* tixian.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE435681A80A5BE00910616 /* tixian.png */; };
 		4BE4356C1A80B0EB00910616 /* CABasicAnimation+animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4356B1A80B0EB00910616 /* CABasicAnimation+animation.m */; };
+		4BF7F0ED1A80B3DF0083CAA8 /* ScendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7F0EC1A80B3DF0083CAA8 /* ScendViewController.m */; };
+		4BF7F0F01A80C59C0083CAA8 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7F0EF1A80C59C0083CAA8 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		4BE435681A80A5BE00910616 /* tixian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tixian.png; sourceTree = "<group>"; };
 		4BE4356A1A80B0EB00910616 /* CABasicAnimation+animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+animation.h"; sourceTree = "<group>"; };
 		4BE4356B1A80B0EB00910616 /* CABasicAnimation+animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+animation.m"; sourceTree = "<group>"; };
+		4BF7F0EB1A80B3DF0083CAA8 /* ScendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScendViewController.h; sourceTree = "<group>"; };
+		4BF7F0EC1A80B3DF0083CAA8 /* ScendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScendViewController.m; sourceTree = "<group>"; };
+		4BF7F0EE1A80C59C0083CAA8 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		4BF7F0EF1A80C59C0083CAA8 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				4BDCF8CE1A7C84A3002C0AAD /* AppDelegate.m */,
 				4BDCF8D01A7C84A3002C0AAD /* ViewController.h */,
 				4BDCF8D11A7C84A3002C0AAD /* ViewController.m */,
+				4BF7F0EB1A80B3DF0083CAA8 /* ScendViewController.h */,
+				4BF7F0EC1A80B3DF0083CAA8 /* ScendViewController.m */,
+				4BF7F0EE1A80C59C0083CAA8 /* CustomView.h */,
+				4BF7F0EF1A80C59C0083CAA8 /* CustomView.m */,
 				4BE4356A1A80B0EB00910616 /* CABasicAnimation+animation.h */,
 				4BE4356B1A80B0EB00910616 /* CABasicAnimation+animation.m */,
 				4BDCF8F21A7CA276002C0AAD /* TableVIewDataSource.h */,
@@ -255,6 +265,8 @@
 				4BDCF9031A7CC352002C0AAD /* ListCell.m in Sources */,
 				4BDCF8CF1A7C84A3002C0AAD /* AppDelegate.m in Sources */,
 				4BDCF8F41A7CA276002C0AAD /* TableVIewDataSource.m in Sources */,
+				4BF7F0ED1A80B3DF0083CAA8 /* ScendViewController.m in Sources */,
+				4BF7F0F01A80C59C0083CAA8 /* CustomView.m in Sources */,
 				4BE4356C1A80B0EB00910616 /* CABasicAnimation+animation.m in Sources */,
 				4BDCF8CC1A7C84A3002C0AAD /* main.m in Sources */,
 				4BDCF8FA1A7CAEFA002C0AAD /* DataModel.m in Sources */,

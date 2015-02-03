@@ -11,6 +11,9 @@
 #import "DataModel.h"
 #import "ListCell.h"
 #import <QuartzCore/QuartzCore.h>
+
+#import "ScendViewController.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDataSource>
 
 @property (nonatomic, strong) TableVIewDataSource *arrayDataSource;
@@ -28,6 +31,14 @@
     [self layer01];
     [self layer02];
     [self layer03];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(300, 50, 60, 40);
+    [btn addTarget:self action:@selector(btnPressed:) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor redColor];
+    [btn setTitle:@"下一页" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    
 //layer的简单应用
     
     
@@ -61,6 +72,11 @@
 
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (void)btnPressed:(UIButton *)sender
+{
+    ScendViewController *SVc = [[ScendViewController alloc] init];
+    [self presentViewController:SVc animated:YES completion:nil];
 }
 - (void)movePositionLaver
 {
