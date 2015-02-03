@@ -24,7 +24,7 @@
     
     CGContextSetRGBStrokeColor(context, 1, 0, 0, 1.0);
     CGContextSetLineWidth(context, 2.f);
-    CGContextAddArc(context, 150, 150, 115, 0, 2*M_PI, 0);
+    CGContextAddArc(context, 80, 80, 60, 0, 2*M_PI, 0);
     CGContextDrawPath(context, kCGPathStroke);
 }
 /*

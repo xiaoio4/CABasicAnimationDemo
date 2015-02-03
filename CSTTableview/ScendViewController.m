@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      self.view.backgroundColor = [UIColor whiteColor];
-    CustomView *cView = [[CustomView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    cView.backgroundColor = [UIColor whiteColor];
+    CustomView *cView = [[CustomView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    cView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:cView];
     // Do any additional setup after loading the view.
 }
